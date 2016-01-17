@@ -1,0 +1,22 @@
+{
+  "name": "@eknkc/pg",
+  "version": "1.0.0",
+  "description": "PG + SQLTAG",
+  "main": "build.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel --presets es2015-node4,stage-3 index.js -o build.js",
+    "prepublish": "npm run build"
+  },
+  "author": "Ekin Koc",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015-node4": "^2.0.2",
+    "babel-preset-stage-3": "^6.3.13"
+  },
+  "dependencies": {
+    "@eknkc/sqltag": "^1.2.0",
+    "bluebird": "^3.1.1",
+    "pg": "^4.4.3"
+  }
+}
