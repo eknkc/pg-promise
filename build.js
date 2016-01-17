@@ -187,11 +187,3 @@ function handleMigrations(rootpath) {
     };
   }());
 };
-
-config({
-  database: 'test'
-});
-
-migrate(__dirname).then(console.log);
-
-db`select now()`.first().then(console.log, console.error);
