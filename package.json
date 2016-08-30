@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@eknkc/sqltag": "^1.3.0",
-    "bluebird": "^3.3.1",
+    "bluebird": "^3.4.4",
     "pg": "^4.4.6"
   }
 }
